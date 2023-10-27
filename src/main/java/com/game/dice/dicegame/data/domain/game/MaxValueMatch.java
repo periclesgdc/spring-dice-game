@@ -3,10 +3,6 @@ package com.game.dice.dicegame.data.domain.game;
 import com.game.dice.dicegame.data.domain.dice.Dice;
 import com.game.dice.dicegame.data.enums.ResultEnum;
 
-import jakarta.persistence.Inheritance;
-import jakarta.persistence.InheritanceType;
-
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class MaxValueMatch extends BaseMatch {
 
   protected MaxValueMatch(String playerName, Dice usedDice) {

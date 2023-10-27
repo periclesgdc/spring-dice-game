@@ -18,4 +18,5 @@ public interface Match {
   }
 
   public ResultEnum run();
+  public String print();
 }
