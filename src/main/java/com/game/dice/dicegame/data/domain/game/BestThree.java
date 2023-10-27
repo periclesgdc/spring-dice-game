@@ -8,10 +8,6 @@ import java.util.Map.Entry;
 import com.game.dice.dicegame.data.domain.dice.Dice;
 import com.game.dice.dicegame.data.enums.ResultEnum;
 
-import jakarta.persistence.Inheritance;
-import jakarta.persistence.InheritanceType;
-
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class BestThree extends BaseMatch {
 
   protected BestThree(String playerName, Dice usedDice) {
